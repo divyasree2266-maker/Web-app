@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moodify - AI Mood Journal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Moodify </h1>
+  <form id="journalForm">
+    <textarea id="entry" placeholder="How are you feeling today?" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
